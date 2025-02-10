@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() 
+{
+int sub1,sub2,sub3,sub4,sub5,sub,percentage;
+printf("Enter value of 5 number:");
+scanf("%d%d%d%d%d", &sub1,&sub2,&sub3,&sub4,&sub5);
+sub= sub1+sub2+sub3+sub4+sub5;
+printf("result of sub: %d", sub);
+percentage= sub/5;
+printf("result of percentage: %d", percentage);
+return 0;
+}
