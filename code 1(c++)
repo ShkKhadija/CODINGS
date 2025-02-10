@@ -1,0 +1,12 @@
+include <iostream> 
+ 
+struct MyStruct { 
+    int a; 
+    double b; 
+    char c; 
+}; 
+ 
+int main() { 
+    std::cout << "Size of MyStruct: " << sizeof(MyStruct) << " bytes" << std::endl; 
+    return 0; 
+}
