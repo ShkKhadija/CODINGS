@@ -1,0 +1,29 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int sum(int a,int b) {
+    return a+b;
+}
+int sub(int a,int b) {
+    return a-b;
+}
+int mul(int a,int b) {
+    return a*b;
+}
+int div(int a,int b) {
+    return a/b;
+}
+
+int main() {
+    
+    int a = sum(10,20);
+    int s = sub(40,20);
+    int m = mul(10,2);
+    int d = div(20,4);
+    
+    printf("result of add = %d \n",a);
+    printf("result of sub = %d \n",s);
+    printf("result of mul = %d \n",m);
+    printf("result of div = %d \n",d);
+
+    return 0;
+}
